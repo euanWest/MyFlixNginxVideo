@@ -1,6 +1,6 @@
-cd mp4
+cd /www/html/mp4
 wget https://ia801302.us.archive.org/28/items/SteamboatWillie/Steamboat%20Willie.mp4
-cd ..
+cd ../../..
 docker stop videoserv
 docker rm videoserv
 docker build -t video .
