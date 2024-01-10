@@ -5,30 +5,21 @@
     <!--&lt;!&ndash; If you'd like to support IE8 &ndash;&gt;-->
     <!--<script src="http://vjs.zencdn.net/ie8/1.1.0/videojs-ie8.min.js"></script>-->
 
-    <link href="http://vjs.zencdn.net/6.2.8/video-js.css" rel="stylesheet">
-    <script src="http://vjs.zencdn.net/6.2.8/video.js"></script>
-    <script src="scripts/videojs-flash.min.js"></script>
+    <link href="//vjs.zencdn.net/7.8.2/video-js.min.css" rel="stylesheet">
+<script src="//vjs.zencdn.net/7.8.2/video.min.js"></script>
    
   </head>
 
   <body>
-      <h1>Test video player (local)</h1>
+    <h1>Test video player (local)</h1>
 
-      <div id="instructions">
+<div id="instructions">
 
-        <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px"
-	        controls preload="none" poster='pics/pics/Steamboat Willie_000165.jpg'
-	        data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
-	        <source src="rtmp://localhost:1935/vod2/bbb.mp4" type='rtmp/mp4' />
+      <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px"
+	     controls preload="none" poster='pics/Steamboat Willie_000165.jpg'
+	     data-setup='{§ }'>
+	<source src="//34.75.190.53/MyFlixNginxVideo/mp4/Steamboat Willie.mp4" type='video/mp4' />
 	      </video>
-
-        <object width="500" height="300">
-          <param name="moviename" value="http://fpdownload.adobe.com/strobe/FlashMediaPlayback_101.swf"> </param> 
-          <param name="flashvars" value="src=34.75.190.53/MyFlixNginxVideo/mp4/Steamboat Willie.mp4"></param> 
-          <param name="allowFullScreen" value="true"></param> 
-          <param name="allowscriptaccess" value="always"></param> 
-          <embed src="34.75.190.53/MyFlixNginxVideo/mp4/Steamboat Willie.mp4" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="500" height="300" flashvars=" src= http://www.myserver.com/myvids/ streaming_vid.flv"></embed>
-        </object>
       </div>
   </body>
-</html>
+  </html>
